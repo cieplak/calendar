@@ -153,7 +153,7 @@ date :: Year
      -> Date
 
 -- Base Case
-date (Year 1753) (January) (1) = Date (Year 1) January 1 Monday
+date (Year 1753) (January) (1) = Date (Year 1753) January 1 Monday
 
 -- Recursive Definition
 date year month day
